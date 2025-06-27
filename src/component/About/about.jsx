@@ -1,5 +1,5 @@
 import React from 'react'
-import './about.css'
+import './About.css'
 import about_img from '../../assets/about.png'
 import play_icon from '../../assets/play-icon.png'
 
@@ -29,3 +29,5 @@ export const About = () => {
     </div>
   )
 }
+
+export default About

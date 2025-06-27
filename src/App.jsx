@@ -1,11 +1,13 @@
 import { useState } from 'react'
 import Hero from './component/Hero/Hero'
 import Title from './component/Title/Title'
-import { About } from './component/About/About'
 import { Campus } from './component/Campus/Campus'
 import { Testimonial } from './component/Testimonial/Testimonial'
 import Contact from './component/Contact/Contact'
 import Navbar from './component/navbar/Navbar'
+import Program from './component/Programs/Program'
+import About from './component/About/about'
+
 
 
 function App() {
@@ -13,6 +15,7 @@ function App() {
     <div>
       <Navbar />
       <Hero/>
+      <Program />
         <div className="container">
           <Title subTitle='OUR PROGRAMS' title='What we Offer'/>
           <About/>
